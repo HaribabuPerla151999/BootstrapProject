@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammulu Institutions</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./bootstrap-4.5.3/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <!-- JSLINK -->
+    <link rel="stylesheet" href="./bootstrap-4.5.3/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js">
+    <!-- CSS CUSOM LINK -->
+    <link rel="stylesheet" href="./insitutionpage.css">
+</head>
+<body>
+
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#course">Courses <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- LANDING PAGE -->
+     <div class="landing-page">
+        <div class="wrapper-container">
+            <div class="text-white d-flex flex-column justify-content-center h-100 text-center">
+                <h1>Welecome to Eduction Temple</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem iure dolorum officia? Quam, optio qui labore nobis perferendis sed!
+                </p>
+                <div>
+                <button class="btn btn-warning">
+                    Know More
+                </button>
+            </div>
+            </div>
+
+        </div>
+     </div>
+
+    <!-- Courses starts -->
+    <div class="container-fluid bg-dark pt-5 pb-5" id="course">
+        <h3 class="text-warning font-italic">Courses</h3>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card">
+                    <div class="card-head">
+                        <img class="course-img" src="data:image/jpeg;base64,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""/>
+
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-success">UI TECHNOLOGIES</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem unde odit obcaecati eum delectus aut dolores earum, quaerat asperiores voluptas quo rem ipsam laborum enim nemo aliquid? Dolorem, placeat?
+                        </p>
+                        <div>
+                            <button class="btn btn-warning">Know More</button>
+                            <button class="btn btn-outline-success">Read More...</button>
+                        </div>
+                       
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card">
+                    <div class="card-head">
+                     <img class="course-img"src="https://mechomotive.com/wp-content/uploads/2021/08/Ekran-Resmi-2019-11-18-18.08.13.png"/>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-success">REACT JS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem unde odit obcaecati eum delectus aut dolores earum, quaerat asperiores voluptas quo rem ipsam laborum enim nemo aliquid? Dolorem, placeat?
+                        </p>
+                        <div>
+                            <button class="btn btn-warning">Know more</button>
+                            <button class="ml-2 btn btn-success">Read More...</button>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card">
+                    <div class="card-head">
+                     <img class="course-img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROe9GD3I5EbOyy_bkSq3y_qsKt-iITPr_rDA&usqp=CAU"/>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-success">ANGULAR JS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem unde odit obcaecati eum delectus aut dolores earum, quaerat asperiores voluptas quo rem ipsam laborum enim nemo aliquid? Dolorem, placeat?
+                        </p>
+                        <div>
+                            <button class="btn btn-warning">Know more</button>
+                            <button class="ml-2 btn btn-success">Read More...</button>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+
+                <div class="card">
+                    <div class="card-head">
+                     <img class="course-img"src="https://miro.medium.com/max/1400/1*htbUdWgFQ3a94PMEvBr_hQ.webp"/>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-success">NEXT JS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolorem unde odit obcaecati eum delectus aut dolores earum, quaerat asperiores voluptas quo rem ipsam laborum enim nemo aliquid? Dolorem, placeat?
+                        </p>
+                        <div>
+                            <button class="btn btn-warning">Know more</button>
+                            <button class="ml-2 btn btn-success">Read More...</button>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+     <!-- About Section -->
+    <div class="container-fluid bg-warning pt-5 pb-5" id="about">
+        <div class="row  d-flex flex-row justify-content-center">
+            <div class="col-12 col-md-6">
+                <h3 class="text-danger font-italic text-center">About Us</h3>
+                <p class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos magnam corrupti earum placeat modi maiores, sequi adipisci temporibus, labore unde aperiam ipsa odit perspiciatis provident voluptate recusandae commodi consequuntur distinctio, tenetur inventore? Voluptatibus totam officiis vitae ullam mollitia nesciunt esse. Nesciunt eius sequi non veniam temporibus quae perspiciatis at est reprehenderit molestias voluptate quisquam exercitationem iste dolorem aliquam suscipit, enim debitis corporis quis obcaecati hic provident sapiente eaque? Nam quas, repellat deleniti facilis velit, quis voluptatum nihil, debitis quae a ipsam in nulla perferendis esse officiis corrupti amet saepe? Dolores tempore dolor asperiores cumque, eveniet sed doloremque explicabo veritatis ipsa dignissimos vel tenetur repudiandae numquam doloribus corrupti consectetur atque laudantium odio sapiente dicta. Voluptatum veniam eveniet sunt, animi odio porro odit aliquam quisquam, vitae, similique perferendis sequi. Ratione quis nulla laborum reiciendis beatae aperiam numquam delectus nemo inventore. Incidunt expedita pariatur modi iusto? Voluptates maxime consequatur velit blanditiis dolores eveniet expedita incidunt delectus. Ducimus amet, quisquam nulla consequatur eum dolore rerum, aliquam accusamus esse nesciunt quod eligendi doloribus tempore illo doloremque. Voluptatum expedita repellat velit quaerat illum sed tempora voluptates nulla veritatis pariatur cum commodi beatae dignissimos aperiam animi quibusdam saepe quod, excepturi quae unde nobis explicabo? Cupiditate, deleniti!</p>
+          </div>
+          <div class="col-12 col-md-4 mt-5">
+             <div class="card">
+                <div class="card-head">
+                    <img src="./exampleImg.jpg" class="about-img"/>
+
+                </div>
+                <div class="card-body">
+                    Research fuels the core of ISKME’s work. ISKME brings cutting edge contributions to the field of education with an interdisciplinary team of social scientists. With a focus on data use, open education, and knowledge collaboration, the research team produces new frameworks, models and theories 
+                </div>
+             </div>
+          </div>
+        </div>
+     </div>
+      <!-- Contact us -->
+    <div class="conatiner-fluid bg-dark pt-5 pb-5" id="contact">
+        <div class="row  rowTwo d-flex flex-row justify-content-center">
+                 <div class="col-12 col-md-4  text-center">
+                <div class="card">
+                    <div class="card-body map-card-body">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15225.71291175263!2d78.4358656203176!3d17.439206280255725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c55bb43183%3A0x1abc135b23ee2703!2sAmeerpet%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1669439344619!5m2!1sen!2sin" width="200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-head bg-warning text-center">
+                        <h4>CONTACT</h4>
+                    </div>
+                    <div class="card-body">
+                        <input type="text" class="form-control" placeholder="Enter Name"/>
+                        <input type="email" class="form-control mt-3" placeholder="Enter Email"/>
+                        <input type="number" class="form-control mt-3" placeholder="Enter Number"/>
+                        <div class="text-center">
+                            <button class="btn btn-warning mt-3">Submit</button>
+
+                        </div>
+                   </div>
+                </div>
+
+            </div>
+       
+        </div>
+    </div>
+ <!-- Footer -->
+ <div class="text-center mt-3 p-3">
+    <h3 class="text-danger font-italic font-weight-bold"> Designed & Developed by Haribabu Perla. </h3>
+</div>
+    
+</body>
+</html>
